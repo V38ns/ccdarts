@@ -1,0 +1,40 @@
+.buttonsection {
+    padding: 1rem;
+
+    .scoretoevoegen {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .rij {
+            padding-bottom: 5px;
+        }
+
+        .buttonpos {
+            font-size: 1rem;
+            background-color: $posbutton;
+            padding: 0.1rem;
+            border-color: green;
+        }
+
+        .buttonzero {
+            height: 154px;
+            font-size: 1rem;
+            background-color: $zerobutton;
+            padding: 0.1rem;
+            border-color: darkgoldenrod;
+            color: #000;
+        }
+
+        .buttonneg {
+            font-size: 1rem;
+            background-color: $negbutton;
+            padding: 0.1rem;
+            border-color: red;
+        }
+
+    
+
+
+    }
+}

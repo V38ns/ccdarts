@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sass/style.css">
+    <script src="javascript/twenties.js"></script>
+    <title>CC Darts</title>
+</head>
+<body>
+    <main>
+        <section class="scorebord">
+            <form id="gamegegevens">
+                <div class="gamegegevensdetail">
+                    <div class="positionleft">
+                        <label for="datum">Datum</label>
+                    </div>
+                    <div class="positionright">
+                        <input type="date" id="datum" size="40" />
+                    </div>
+                </div>
+                <div class="gamegegevensdetail">
+                    <div class="positionleft">
+                        <label for="puntentxt">Punten</label>
+                    </div>
+                    <div class="positionright">
+                        <a id="punten">0</a>
+                        <input type="hidden" id="puntentxt" name="puntentxt" size="30" />
+                    </div>
+                </div>
+                <div class="gamegegevensdetail">
+                    <div class="positionleft">
+                        <label for="pogingentxt">Pogingen</label>
+                    </div>
+                    <div class="positionright">
+                        <a id="pogingen">0</a>
+                        <input type="hidden" id="pogingentxt" name="pogingentxt" size="30" />
+                    </div>
+                </div>
+                <div class="savebutton">
+                    <button id="save" type = "submit">SAVE</button>
+                </div>
+            </form>
+        </section>
+        
+        <section class="buttonsection">
+            <div class="scoretoevoegen">
+                <div class="posscore">
+                    <div class="rij">
+                        <button class="buttonpos" onclick="plus1()">+1</button>
+                        <button class="buttonpos" onclick="plus2()">+2</button>
+                        <button class="buttonpos" onclick="plus3()">+3</button>
+                    </div>
+                    <div class="rij">
+                        <button class="buttonpos" onclick="plus4()">+4</button>
+                        <button class="buttonpos" onclick="plus5()">+5</button>
+                        <button class="buttonpos" onclick="plus6()">+6</button>
+                    </div>
+                    <div class="rij">
+                        <button class="buttonpos" onclick="plus7()">+7</button>
+                        <button class="buttonpos" onclick="plus8()">+8</button>
+                        <button class="buttonpos" onclick="plus9()">+9</button>
+                    </div>
+                </div>
+                <div class="zeroscore">
+                    <div class="rij">
+                        <button class="buttonzero" onclick="zero()">0</button>
+                    </div>
+                </div>
+                <div class="negscore">
+                    <div class="rij">
+                        <button class="buttonneg" onclick="min1()">-1</button>
+                        <button class="buttonneg" onclick="min2()">-2</button>
+                        <button class="buttonneg" onclick="min3()">-3</button>
+                    </div>
+                    <div class="rij">
+                        <button class="buttonneg" onclick="min4()">-4</button>
+                        <button class="buttonneg" onclick="min5()">-5</button>
+                        <button class="buttonneg" onclick="min6()">-6</button>
+                    </div>
+                    <div class="rij">
+                        <button class="buttonneg" onclick="min7()">-7</button>
+                        <button class="buttonneg" onclick="min8()">-8</button>
+                        <button class="buttonneg" onclick="min9()">-9</button>
+                    </div>
+                </div>
+            </div>
+            <div class="savebutton">
+                <button id="clear" onclick="leegmaken()">CLEAR</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

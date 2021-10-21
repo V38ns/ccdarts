@@ -1,0 +1,25 @@
+button {
+    width: 15%;
+    min-width: 48px;
+    min-height: 48px;
+    color: $button-textcolor;
+    border: 2px solid;
+    border-radius: 10px;
+    outline: none;
+}
+
+.savebutton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+            
+    button {
+        width: 90%;
+        background-color: $savebutton-bgcolor;
+        color: $savebutton-textcolor;
+        border: 1px solid;
+        border-color: rgb(29, 29, 29);
+        border-radius: 10px;
+    }
+}
