@@ -8,11 +8,6 @@ $savebutton-textcolor: #fff;
 $posbutton: #4caf50;
 $zerobutton: darkorange;
 $negbutton: #9f6060;
-
-@mixin mq($size) {
-    @media only screen and (min-width: $size) {
-        @content;
-    }
 }
 
 * {
@@ -27,9 +22,6 @@ html, body {
     color: $default-font-color;
     width: 100%;
     min-height: 100%;
-    @include mq(768px) {
-        font-size: 22px;
-    }
 }
 
 body {
