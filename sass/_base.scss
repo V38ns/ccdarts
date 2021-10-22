@@ -1,5 +1,5 @@
 $default-font-color: #000;
-$background-color: grey;
+$background-color: cadetblue;
 $container-bgcolor: lightblue;
 $container-bordercolor: #000;
 $button-textcolor: #fff;
@@ -40,7 +40,7 @@ body {
 section {
     background-color: $container-bgcolor;
     width: 90%;
-    max-width: 700px;
+    max-width: 1080px;
     margin: auto;
     border: 1px solid $container-bordercolor;
     border-radius: 10px;
